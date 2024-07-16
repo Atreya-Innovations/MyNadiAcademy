@@ -1,0 +1,46 @@
+.lms-education-banner-section .banner-content h1,.lms-education-banner-section .banner-content p,
+.lms-education-banner-section .banner-btn .block-editor-rich-text__editable,.degree-courses-section p,.degree-courses-section h2{
+  font-family: 'Outfit', sans-serif !important;
+}
+.lms-education-banner-section .banner-content {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14%;
+  right: 49%;
+  position: absolute;
+}
+.lms-education-banner-section .banner-content h1,.lms-education-banner-section .banner-btn .block-editor-rich-text__editable,
+.degree-courses-section p,.degree-courses-section h2,.tutor-certified p{
+  font-weight: 600 !important;
+}
+.lms-education-banner-section .banner-content h1{
+  line-height: 65px !important;
+  font-size: 40px !important;
+  margin-bottom: 15px !important;
+}
+.lms-education-banner-section .banner-btn {
+  margin: 20px 0px;
+}
+.lms-education-banner-section .banner-btn .block-editor-rich-text__editable{
+  padding: 10px 22px;
+}
+.lms-education-banner-section .banner-btn .block-editor-rich-text__editable:hover{
+  background:#000 !important;
+}
+.lms-education-banner-section .banner-content h1:hover{
+  color: #3790CB !important;
+}
+.lms-education-banner-section .tutor-certified {
+  border-top: 2px solid #abb8c3;
+  padding-top: 30px;
+  margin-top: 80px;
+}
+.degree-courses-section {
+  margin-top: 30px;
+}
+.degree-courses-section h2{
+  margin-bottom: 20px !important;
+}
+.tutor-certified  .tutor-certified2 p{
+  margin-top: -10px;
+}

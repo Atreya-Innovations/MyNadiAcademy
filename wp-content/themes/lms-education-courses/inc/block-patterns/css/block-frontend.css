@@ -1,0 +1,183 @@
+.lms-education-banner-section .banner-content {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14%;
+  right: 55%;
+  position: absolute;
+}
+.lms-education-banner-section .banner-content h1{
+  line-height: 65px;
+}
+.lms-education-banner-section .banner-content h1:hover{
+  color: #3790CB !important;
+}
+.lms-education-banner-section .banner-content .banner-btn a{
+  font-weight: 600;
+  padding: 10px 22px; 
+}
+.lms-education-banner-section .banner-content .banner-btn a:hover{
+  background: #000 !important;
+}
+.tutor-certified p,.degree-courses-section p,.degree-courses-section .tutor-course-name{
+  font-weight: 600;
+}
+.lms-education-banner-section .banner-content img{
+  width: auto !important;
+}
+.lms-education-banner-section .banner-content .tutor-certified-col {
+  gap: 1em;
+}
+.lms-education-banner-section .banner-content .tutor-certified2 p{
+  margin-bottom: 0em;
+}
+.lms-education-banner-section .tutor-certified{
+  border-top: 2px solid #abb8c3;
+  padding-top: 20px;
+  margin-top: 80px;
+}
+.lms-education-banner-section .tutor-certified1 .circle-img-text p{
+  margin-top: 10px;
+  line-height: 1.2;
+}
+.lms-education-banner-section .tutor-certified2 .admin-sec figure{
+  padding: 10px 0;
+}
+
+/*degree courses section*/
+.degree-courses-section .tutor-course-name a,.degree-courses-section .tutor-course-list-btn a,.degree-courses-section .list-item-button a,
+.degree-courses-section .tutor-card.tutor-course-card .tutor-iconic-btn-secondary{
+  text-decoration: none !important;
+}
+.degree-courses-section .tutor-course-name,.degree-courses-section .tutor-course-list-btn a,.degree-courses-section .list-item-button a{
+  font-size: 16px;
+}
+.degree-courses-section .tutor-card-footer{
+  padding: 0 20px 15px 20px;
+  border: none;
+}
+.tutor-course-filter,.degree-courses-section .tutor-mt-auto{
+  display: none;
+}
+.degree-courses-section{
+  margin-top: 30px;
+}
+.degree-courses-section .tutor-wrap {
+  margin-top: 0px;
+}
+.degree-courses-section .tutor-meta.tutor-mt-12.tutor-mb-20{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.degree-courses-section .list-item-button,.degree-courses-section .list-item-button:hover{
+  background: none;
+}
+.degree-courses-section .tutor-card.tutor-course-card .tutor-iconic-btn-secondary{
+  opacity: 0;
+}
+.degree-courses-section .tutor-card.tutor-course-card:hover .tutor-iconic-btn-secondary{
+  background: #fff;
+  color: #3790CB;
+  border-radius: 5px;
+  width: 30px;
+  opacity: 1;
+}
+.degree-courses-section img.tutor-card-image-top{
+  border-radius: 10px 10px 0 0;
+}
+.degree-courses-section .tutor-card.tutor-course-card{
+  box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1411px){
+  .lms-education-banner-section .banner-content {
+    right: 40%;
+  }
+}
+@media screen and (min-width: 782px) and (max-width: 999px){
+  .lms-education-banner-section .banner-content {
+    right: 35%;
+    top: 50%;
+    left: 5%;
+  }
+  .lms-education-banner-section .banner-content h1{
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 781px){
+  .lms-education-banner-section .banner-content{
+    top: 50%;
+    right: 30%;
+    left: 10%;
+  }
+  .lms-education-banner-section .tutor-certified{
+    margin-top: 25px;
+    gap: 0em ;
+    width: 80%;
+  }
+  .lms-education-banner-section .tutor-certified .tutor-certified-col {
+    flex-wrap: nowrap !important;    
+    gap: 0em;
+  }
+  .lms-education-banner-section .tutor-certified2 .admin-sec{
+    flex-basis: 20% !important;
+  }
+  .lms-education-banner-section .banner-content h1{
+    font-size: 26px !important;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .lms-education-banner-section .banner-content{
+    top: 50%;
+    left: 10%;
+    right: 20%;
+  }
+  .lms-education-banner-section .tutor-certified{
+    margin-top: 15px;    
+  }
+  .lms-education-banner-section .tutor-certified .tutor-certified-col {
+    flex-wrap: nowrap !important;    
+  }
+  .lms-education-banner-section .tutor-certified2 .admin-sec{
+    flex-basis: 20% !important;
+  }
+  .lms-education-banner-section .tutor-certified1 .circle-img-sec {
+    flex-basis: 50% !important;
+  }  
+  .lms-education-banner-section .banner-content .tutor-certified-col,.lms-education-banner-section .tutor-certified{
+    gap: 0em;
+  }
+}
+@media screen and (max-width: 718px){
+  .lms-education-banner-section .banner-content h1{    
+    line-height: 45px;
+  }
+  .lms-education-banner-section .banner-content h1,.degree-courses-section h2{
+    font-size: 26px !important;
+  }
+}
+@media screen and (max-width: 499px){
+  .lms-education-banner-section .banner-content{
+    top: 50%;
+    right: 5%;
+    left: 5%;
+  }
+  .lms-education-banner-section .tutor-certified{
+    margin-top: 15px;
+    gap: 0em;
+  }
+  .lms-education-banner-section .tutor-certified .tutor-certified-col {
+    flex-wrap: nowrap !important;    
+  }
+  .lms-education-banner-section .tutor-certified2 .admin-sec{
+    flex-basis: 20% !important;
+  }
+  .lms-education-banner-section .tutor-certified1 .circle-img-sec {
+    flex-basis: 100% !important;
+  }  
+}
+@media screen and (max-width: 991px){
+  .degree-courses-section .tutor-grid{
+    display: grid;
+  }
+}
